@@ -17,6 +17,7 @@ import java.util.Random;
 @Getter
 @Setter
 @AllArgsConstructor
+
 public class Room {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
