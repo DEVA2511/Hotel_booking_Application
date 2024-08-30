@@ -12,7 +12,6 @@ import java.util.List;
 @NoArgsConstructor
 public class RoomResponse {
 //    this class is used to get the response from the user
-
     private Long id;
     private String roomType;
     private BigDecimal roomPrice;
