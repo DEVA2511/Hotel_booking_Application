@@ -1,5 +1,6 @@
 package com.devaraj_hotel_booking.response;
 
+import com.devaraj_hotel_booking.model.BookedRoom;
 import jakarta.persistence.Column;
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -38,4 +39,6 @@ public class BookingResponse {
     }
 
 
+    public BookingResponse(Long bookingId, LocalDate checkInDate, LocalDate checkOutDate, BookedRoom booking, String bookingConfirmationCode) {
+    }
 }

@@ -23,7 +23,7 @@ public class Room {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
     private String roomType;
-    private BigDecimal rootPrice;
+    private BigDecimal roomPrice;
     private boolean isBooked = false;
 
 //    this for add the photo in a database
